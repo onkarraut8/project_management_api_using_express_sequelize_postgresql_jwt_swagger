@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Onkar@123",
+    "database": "DB_PROJECT",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Onkar@123",
+    "database": "DB_PROJECT",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "Onkar@123",
+    "database": "DB_PROJECT",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
