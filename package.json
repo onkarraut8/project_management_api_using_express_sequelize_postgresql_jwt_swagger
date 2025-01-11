@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "migrate":"sequelize db:migrate",
     "dev":"nodemon server.js",
     "start":"node server.js",
+    "migrate-and-start":"npm run migrate && npm run start",  
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
