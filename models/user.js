@@ -45,6 +45,13 @@ module.exports = (sequelize, DataTypes) => {
     sequelize,
     tableName: 'User',
     modelName: 'User',
+    // It will exclude the password field from the serialized output
+    toJSON() {
+      return {
+        ...this.get(),
+        password: undefined, // Exclude the password field
+      };
+    }
   });
   return User;
 };

@@ -7,7 +7,7 @@
     "dialect": "postgres"
   },
   "test": {
-    "username": "postgres",
+    "username": "db_project_9skq_user",
     "password": "bULXl4cBUqMt8mNmoPnVRCTipFZPlZv0",
     "database": "db_project_9skq",
     "host": "dpg-cu0vu5rqf0us73d4kvu0-a",
